@@ -1,0 +1,30 @@
+body{
+    padding-bottom: 50px;
+}
+.single-wrapper{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: fit-content;
+   background: rgb(235, 233, 233);
+    border-radius: 10%;
+    text-align: center;
+    margin-bottom: 10%;
+   
+}
+
+.single-wrapper img{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 10% 10% 0 0;
+    background: rgb(110, 110, 235);
+}
+.wrapper{
+    align-content: space-around;
+    display: flex;
+    gap: 10%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px;
+}
